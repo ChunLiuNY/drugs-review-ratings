@@ -63,8 +63,7 @@ The plots suggest that the model has a little over fitting problem, more data ma
 
 ### Random Forest for Multi-class Classification
 
-#### Text cleaning and Preprocessing
-NLP pipelines were applied for text preprocessing.
+#### NLP pipelines for Text Preprocessing
 * Convert all text to lower case.
 * Replace contractions with longer forms.
 * Remove special characters.
