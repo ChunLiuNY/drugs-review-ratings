@@ -5,7 +5,7 @@ Drugs.com is an online pharmaceutical encyclopedia that provides drug informatio
 
 The dataset is this analysis is publically available at [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29). The dataset provides 215K patient reviews on specific drugs along with related conditions and a 10 star patient rating reflecting overall patient satisfaction. The attributes in the dataset include name of drug, name of condition, patient review, 10 star patient rating, date of review entry and number of users who found review useful.  
 
-### Exploratory Data Analysis
+## Exploratory Data Analysis
 
 The distribution of reviews is imbalanced as most of reviews were 8-10 and 1 stars. 
 
@@ -31,7 +31,7 @@ Top 20 drugs with 1/10 rating.
 ![top20drugswith1rating](https://user-images.githubusercontent.com/26207455/116010847-91fd5e80-a5ef-11eb-8087-aac64418abc2.png)
 
 
-### LSTM Modeling for Multi-class Classification
+## LSTM Modeling for Multi-class Classification
 
 Long Short Term Memory (LSTM) was used to predict ratings based on customer reviews. Before training LSTM, following steps were done to preprocess text reviews.
 * Convert all text to lower case.
@@ -61,9 +61,9 @@ The plots suggest that the model has a little over fitting problem, more data ma
 ![LSTM_cm](https://user-images.githubusercontent.com/26207455/116011543-90359a00-a5f3-11eb-8b0c-cd9a053a0d84.png)
 
 
-### Random Forest for Multi-class Classification
+## Random Forest for Multi-class Classification
 
-#### NLP pipelines for Text Preprocessing
+### NLP pipelines for Text Preprocessing
 * Convert all text to lower case.
 * Replace contractions with longer forms.
 * Remove special characters.
@@ -71,14 +71,14 @@ The plots suggest that the model has a little over fitting problem, more data ma
 * Tokenization
 * Lemmatization
 
-#### Feature Engineering
+### Feature Engineering
 Since machine learning models do not accept the raw text as input data, we need to convert reviews into vectors of numbers. In this analysis, I've applied first bag of words and later convert it into Tf-Idf matrix. 
 
-#### Classification with Random Forest
+### Classification with Random Forest
 
 ![rmf_test_cm](https://user-images.githubusercontent.com/26207455/116012040-2074de80-a5f6-11eb-9b43-760b7efb5831.png)
 
-### Model Performance
+## Model Performance
 
 Random forest model based on tf-idf features has higher accuracy score than LSTM models.
 
