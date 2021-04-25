@@ -56,7 +56,7 @@ The first layer is the embedded layer that uses 100 length vectors to represent 
 
 The plots suggest that the model has a little over fitting problem, more data may help, but more epochs will not help using the current data. 
 
-10 Classes Confusion Matrix
+10 Classes Confusion Matrix: 
 
 ![LSTM_cm](https://user-images.githubusercontent.com/26207455/116011543-90359a00-a5f3-11eb-8b0c-cd9a053a0d84.png)
 (horizontal: predicted labels, vertical: actual labels)
