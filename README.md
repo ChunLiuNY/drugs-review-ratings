@@ -12,10 +12,23 @@ The distribution of reviews is imbalanced as most of reviews were 8-10 and 1 sta
 ![ratingsdistribution](https://user-images.githubusercontent.com/26207455/116010209-a5a6c600-a5eb-11eb-82e5-ac4f16743cbd.png)
 
 
-Below is the word cloud of reviews. Most reviews were related to side effects. 
+Most reviews were related to side effects. 
 
 ![frequent_words](https://user-images.githubusercontent.com/26207455/116010635-31b9ed00-a5ee-11eb-98db-b5d65892183b.png)
 
+
+Number of reviews per year. 
+
+![reviewsperyear](https://user-images.githubusercontent.com/26207455/116010733-dccaa680-a5ee-11eb-8f88-44483e1af988.png)
+
+Top 20 drugs with 10/10 rating.
+
+![top20drugswith10rating](https://user-images.githubusercontent.com/26207455/116010818-7003dc00-a5ef-11eb-82b3-96e77a5aa411.png)
+
+
+Top 20 drugs with 1/10 rating.
+
+![top20drugswith1rating](https://user-images.githubusercontent.com/26207455/116010847-91fd5e80-a5ef-11eb-8087-aac64418abc2.png)
 
 
 ### LSTM
