@@ -98,4 +98,5 @@ Both models performed better than baseline model (prediction based on most frequ
 * [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29)
 * [Multi-Class Text Classification with LSTM](https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17)
 * [Applying Text Classification Using Logistic Regression](https://medium.com/analytics-vidhya/applying-text-classification-using-logistic-regression-a-comparison-between-bow-and-tf-idf-1f1ed1b83640)
+* [Multi-Class Text Classification with Keras and LSTM](https://djajafer.medium.com/multi-class-text-classification-with-keras-and-lstm-4c5525bef592)
 
