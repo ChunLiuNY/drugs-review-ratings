@@ -48,7 +48,18 @@ After text preprocessing, LSTM modeling were performed based on steps below.
 
 ![LSTM_summary](https://user-images.githubusercontent.com/26207455/116011098-24523200-a5f1-11eb-80cc-88df55e09c95.png)
 
-The first layer is the embedded layer that uses 100 lenght vectors to represent each word. SpatialDropout1D performs variational dropout in NLP models. Two LSTM layers with 100 memory units. The output layer created 10 output values, representing 1-10 ratings. Activation function is softmax for multi-class classification. categorical_crossentropy is used as the loss function. 
+The first layer is the embedded layer that uses 100 length vectors to represent each word. SpatialDropout1D performs variational dropout in NLP models. Two LSTM layers with 100 memory units. The output layer created 10 output values, representing 1-10 ratings. Activation function is softmax for multi-class classification. categorical_crossentropy is used as the loss function. 
+
+![LSTM_losses](https://user-images.githubusercontent.com/26207455/116011445-1e5d5080-a5f3-11eb-9bc1-c46f77ebe8a2.png)
+
+![LSTM_accuracy](https://user-images.githubusercontent.com/26207455/116011447-23220480-a5f3-11eb-8ef7-a94f643789b9.png)
+
+The plots suggest that the model has a little over fitting problem, more data may help, but more epochs will not help using the current data. 
+
+10 classes confusion matrix (horizontal: predicted labels, vertical: actual labels).
+
+![LSTM_cm](https://user-images.githubusercontent.com/26207455/116011543-90359a00-a5f3-11eb-8b0c-cd9a053a0d84.png)
+
 
 ### Random Forest
 
