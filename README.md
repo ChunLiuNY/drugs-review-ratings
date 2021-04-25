@@ -82,11 +82,11 @@ Since machine learning models do not accept the raw text as input data, we need 
 
 Random forest model based on tf-idf features has higher accuracy score than LSTM models.
 
-Random Forest
-![rmf_score](https://user-images.githubusercontent.com/26207455/116012208-31721f80-a5f7-11eb-9518-2160498f376f.png)
+Random Forest: 0.65
 
-LSTM
-![LSTM_score](https://user-images.githubusercontent.com/26207455/116012210-3636d380-a5f7-11eb-9187-89c46566e0bd.png)
+LSTM: 0.43
+
+Both models performed better than baseline model (prediction based on most frequent ratings, accuracy score: 0.32). 
 
 
 ## Conclusion
