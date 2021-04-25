@@ -31,7 +31,24 @@ Top 20 drugs with 1/10 rating.
 ![top20drugswith1rating](https://user-images.githubusercontent.com/26207455/116010847-91fd5e80-a5ef-11eb-8087-aac64418abc2.png)
 
 
-### LSTM
+### LSTM Modeling for Multi-class Classification
+
+Long Short Term Memory (LSTM) was used to predict ratings based on customer reviews. Before training LSTM, following steps were done to preprocess text reviews.
+* Convert all text to lower case.
+* Replace REPLACE_BY_SPACE_RE symbols by space in text.
+* Remove symbols that are in BAD_SYMBOLS_RE from text.
+* Remove stop words.
+* Remove digits in text.
+
+After text preprocessing, LSTM modeling were performed based on steps below.
+* Vectorize customer reviews text by turning each text into either a sequence of integers or into a vector.
+* Limit the data set to the top 50,000 words.
+* Set the max number of words in each review at 200.  
+* Train LSTM model.
+
+![LSTM_summary](https://user-images.githubusercontent.com/26207455/116011098-24523200-a5f1-11eb-80cc-88df55e09c95.png)
+
+The first layer is the embedded layer that uses 100 lenght vectors to represent each word. SpatialDropout1D performs variational dropout in NLP models. Two LSTM layers with 100 memory units. The output layer created 10 output values, representing 1-10 ratings. Activation function is softmax for multi-class classification. categorical_crossentropy is used as the loss function. 
 
 ### Random Forest
 
