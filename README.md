@@ -61,7 +61,26 @@ The plots suggest that the model has a little over fitting problem, more data ma
 ![LSTM_cm](https://user-images.githubusercontent.com/26207455/116011543-90359a00-a5f3-11eb-8b0c-cd9a053a0d84.png)
 
 
-### Random Forest
+### Random Forest for Multi-class Classification
+
+#### Text cleaning and Preprocessing
+NLP pipelines were applied for text preprocessing.
+* Convert all text to lower case.
+* Replace contractions with longer forms.
+* Remove special characters.
+* Remove stopwords.
+* Tokenization
+* Lemmatization
+
+#### Feature Engineering
+Since machine learning models do not accept the raw text as input data, we need to convert reviews into vectors of numbers. In this analysis, I've applied first bag of words and later convert it into Tf-Idf matrix. 
+
+#### Classification with Random Forest
+
+![rmf_score](https://user-images.githubusercontent.com/26207455/116012038-1ce15780-a5f6-11eb-9af3-ee61ae434fe0.png)
+
+![rmf_test_cm](https://user-images.githubusercontent.com/26207455/116012040-2074de80-a5f6-11eb-9b43-760b7efb5831.png)
+
 
 ### Model Performance
 
