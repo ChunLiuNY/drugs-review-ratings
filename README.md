@@ -14,7 +14,7 @@ The distribution of reviews is imbalanced as most of reviews were 8-10 and 1 sta
 
 Most reviews were related to side effects. 
 
-![frequent_words](https://user-images.githubusercontent.com/26207455/116010635-31b9ed00-a5ee-11eb-98db-b5d65892183b.png)
+![frequent_words](https://user-images.githubusercontent.com/26207455/116010932-fcae9a00-a5ef-11eb-87c0-4ff458293660.png)
 
 
 Number of reviews per year. 
