@@ -76,11 +76,17 @@ Since machine learning models do not accept the raw text as input data, we need 
 
 #### Classification with Random Forest
 
-![rmf_score](https://user-images.githubusercontent.com/26207455/116012038-1ce15780-a5f6-11eb-9af3-ee61ae434fe0.png)
-
 ![rmf_test_cm](https://user-images.githubusercontent.com/26207455/116012040-2074de80-a5f6-11eb-9b43-760b7efb5831.png)
 
-
 ### Model Performance
+
+Random forest model based on tf-idf features has higher accuracy score than LSTM models.
+
+Random Forest
+![rmf_score](https://user-images.githubusercontent.com/26207455/116012208-31721f80-a5f7-11eb-9518-2160498f376f.png)
+
+LSTM
+![LSTM_score](https://user-images.githubusercontent.com/26207455/116012210-3636d380-a5f7-11eb-9187-89c46566e0bd.png)
+
 
 ## Conclusion
