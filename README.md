@@ -1,5 +1,5 @@
 # Drugs Review Sentiment Analysis
-Drugs.com is an online pharmaceutical encyclopedia that provides drug information for consumers and healthcare professionals. This analysis is based on drug reviews data from drugs.com. The goal of this analysis is to conduct sentiment analysis based on drug reviews by predicting customers' rating on specific drugs. 
+Drugs.com is an online pharmaceutical encyclopedia that provides drug information for consumers and healthcare professionals. This analysis is based on drug reviews data from drugs.com. The goal of this analysis is to conduct sentiment analysis based on drug reviews by predicting customer ratings on specific drugs. 
 
 ## Dataset Description
 
@@ -89,4 +89,12 @@ LSTM: 0.43
 Both models performed better than baseline model (prediction based on most frequent ratings, accuracy score: 0.32). 
 
 
-## Conclusion
+## Next Steps
+* Fine tune both models to improve accuracy scores
+* Try other modeling methods, bag of n-Grams, gradient boosting etc. 
+
+## Refrence
+* [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29)
+* [Multi-Class Text Classification with LSTM](https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17)
+* [Applying Text Classification Using Logistic Regression](https://medium.com/analytics-vidhya/applying-text-classification-using-logistic-regression-a-comparison-between-bow-and-tf-idf-1f1ed1b83640)
+
