@@ -1,4 +1,4 @@
-# Drugs Review Sentiment Analysis
+# Drug Review Sentiment Analysis
 Drugs.com is an online pharmaceutical encyclopedia that provides drug information for consumers and healthcare professionals. This analysis is based on drug reviews data from drugs.com. The goal of this analysis is to conduct sentiment analysis based on drug reviews by predicting customer ratings on specific drugs. 
 
 ## Dataset Description
