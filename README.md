@@ -93,6 +93,7 @@ Both models performed better than baseline model (prediction based on most frequ
 ## Next Steps
 * Fine tune both models to improve accuracy scores
 * Try other modeling methods, bag of n-Grams, gradient boosting etc. 
+* Try training models on larger data set on AWS to improve efficiency
 
 ## Refrence
 * [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29)
