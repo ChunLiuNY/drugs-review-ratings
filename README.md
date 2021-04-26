@@ -31,7 +31,7 @@ Top 20 drugs with 1/10 rating.
 ![top20drugswith1rating](https://user-images.githubusercontent.com/26207455/116010847-91fd5e80-a5ef-11eb-8087-aac64418abc2.png)
 
 
-## LSTM Modeling for Multi-class Classification
+## LSTM Modeling for Multi-class Classification (10 Classes)
 
 Long Short Term Memory (LSTM) was used to predict ratings based on customer reviews. Before training LSTM, following steps were done to preprocess text reviews.
 * Convert all text to lower case.
@@ -61,7 +61,7 @@ The plots suggest that the model has a little over fitting problem, more data ma
 ![LSTM_cm](https://user-images.githubusercontent.com/26207455/116011543-90359a00-a5f3-11eb-8b0c-cd9a053a0d84.png)
 (horizontal: predicted labels, vertical: actual labels)
 
-## Random Forest for Multi-class Classification
+## Random Forest for Multi-class Classification (10 Classes)
 
 ### NLP pipelines for Text Preprocessing
 * Convert all text to lower case.
