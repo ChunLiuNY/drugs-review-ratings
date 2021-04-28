@@ -42,7 +42,7 @@ Long Short Term Memory (LSTM) was used to predict ratings based on customer revi
 
 After text preprocessing, LSTM modeling were performed based on steps below.
 * Vectorize customer reviews text by turning each text into either a sequence of integers or into a vector.
-* Limit the data set to the top 50,000 words.
+* Limit the data set to the top 10,000 words.
 * Set the max number of words in each review at 200.  
 * Train LSTM model.
 
